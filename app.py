@@ -189,7 +189,8 @@ if halaman == "Beranda":
         "**Adipandang Yudono, S.Si., MURP., PhD** - "
         "Departemen Perencanaan Wilayah dan Kota-UB"
     )
-    
+
+    st.markdown("--------------------------------------------------------------------------------------------------------------------------------")
     st.markdown(
         """
 Riset ini menghubungkan tiga aspek pada dua embung di Yogyakarta:
