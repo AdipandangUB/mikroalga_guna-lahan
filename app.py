@@ -182,9 +182,13 @@ if halaman == "Beranda":
     st.title("Analisis Tata Guna Lahan, Faktor Meteorologis, dan Komunitas Mikroalga")
     st.subheader("Studi Kasus: Embung Wisdom Park (UGM) & Embung Langensari, Yogyakarta")
 
+    st.subheader("Peneliti:")
+    st.subheader("Ir. Intan Supraba, S.T., M.Sc., Ph.D., IPM., ASEAN.Eng. - Departemen Teknik Sipil Dan Teknik LIngkungan-UGM")
+    st.subheader("Adipandang Yudono, S.Si., MURP., PhD - Departemen Perencanaan Wilayah dan Kota-UB")
+    
     st.markdown(
         """
-Aplikasi ini menghubungkan tiga aspek pada dua embung di Yogyakarta:
+Riset ini menghubungkan tiga aspek pada dua embung di Yogyakarta:
 
 1. **Kualitas air & komunitas mikroalga** — diambil dari data sampling lapangan
    (suhu air, pH, DO, TDS, dan hasil identifikasi mikroalga per titik/kedalaman).
