@@ -171,8 +171,8 @@ halaman = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.caption(
     "Data kualitas air & mikroalga bersumber dari laporan lapangan "
-    "(sampling 16 Januari 2026). Data tata guna lahan & meteorologi udara "
-    "adalah kerangka input yang perlu divalidasi dengan data primer."
+    "(16 Januari 2026, kondisi cuaca cerah. Wisdom Park pukul 09.30–10.30 WIB; "
+             "Langensari pukul 11.00–12.00 WIB."
 )
 
 # ----------------------------------------------------------------------------
@@ -222,9 +222,6 @@ mikro berkaitan dengan dominansi kelas/spesies mikroalga tertentu.
     col2.metric("Jumlah Titik Sampling", "8", help="4 titik x 2 embung")
     col3.metric("Jumlah Spesies Teridentifikasi", f"{df_alga['Spesies'].nunique()}")
 
-    st.markdown("### Tanggal & Kondisi Sampling")
-    st.write("16 Januari 2026, kondisi cuaca cerah. Wisdom Park pukul 09.30–10.30 WIB; "
-             "Langensari pukul 11.00–12.00 WIB.")
 
 # ----------------------------------------------------------------------------
 # HALAMAN 1: DATA KUALITAS AIR & MIKROALGA
