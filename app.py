@@ -184,7 +184,7 @@ if halaman == "Beranda":
 
     st.subheader("Peneliti:")
     st.markdown("**Ir. Intan Supraba, S.T., M.Sc., Ph.D., IPM., ASEAN.Eng.** - Departemen Teknik Sipil Dan Teknik LIngkungan-UGM
-    **Adipandang Yudono, S.Si., MURP., PhD** - Departemen Perencanaan Wilayah dan Kota-UB""")
+    **Adipandang Yudono, S.Si., MURP., PhD** - Departemen Perencanaan Wilayah dan Kota-UB")
     
     st.markdown(
         """
