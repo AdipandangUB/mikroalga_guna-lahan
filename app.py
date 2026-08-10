@@ -182,7 +182,7 @@ if halaman == "Beranda":
     st.title("Analisis Tata Guna Lahan, Faktor Meteorologis, dan Komunitas Mikroalga")
     st.subheader("Studi Kasus: Embung Wisdom Park (UGM) & Embung Langensari, Yogyakarta")
 
-    st.markdown("Peneliti:")
+    st.markdown("**Peneliti:**")
     st.markdown(
         "**Ir. Intan Supraba, S.T., M.Sc., Ph.D., IPM., ASEAN.Eng.** - "
         "Departemen Teknik Sipil Dan Teknik Lingkungan-UGM  \n"
